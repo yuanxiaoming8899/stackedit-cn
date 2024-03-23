@@ -51,15 +51,7 @@ helm install --name stackedit stackedit/stackedit \
   --set wordpressClientId=<span class="pl-cce">\"</span><span class="pl-smi">$WORDPRESS_CLIENT_ID</span><span class="pl-cce">\"</span> \
   --set wordpressSecret=<span class="pl-smi">$WORDPRESS_CLIENT_SECRET</span></pre><div class="zeroclipboard-container">
     
-helm install --name stackedit stackedit/stackedit \
-  --set dropboxAppKey=$DROPBOX_API_KEY \
-  --set dropboxAppKeyFull=$DROPBOX_FULL_ACCESS_API_KEY \
-  --set googleClientId=$GOOGLE_CLIENT_ID \
-  --set googleApiKey=$GOOGLE_API_KEY \
-  --set githubClientId=$GITHUB_CLIENT_ID \
-  --set githubClientSecret=$GITHUB_CLIENT_SECRET \
-  --set wordpressClientId=\&quot;$WORDPRESS_CLIENT_ID\&quot; \
-  --set wordpressSecret=$WORDPRESS_CLIENT_SECRET" tabindex="0" role="button">
+
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
     <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
 </svg>
@@ -110,21 +102,7 @@ helm install --name stackedit stackedit/stackedit \
   --set ingress.tls[0].secretName=stackedit-tls \
   --set ingress.tls[0].hosts[0]=stackedit.example.com</pre><div class="zeroclipboard-container">
   
-  --set dropboxAppKey=$DROPBOX_API_KEY \
-  --set dropboxAppKeyFull=$DROPBOX_FULL_ACCESS_API_KEY \
-  --set googleClientId=$GOOGLE_CLIENT_ID \
-  --set googleApiKey=$GOOGLE_API_KEY \
-  --set githubClientId=$GITHUB_CLIENT_ID \
-  --set githubClientSecret=$GITHUB_CLIENT_SECRET \
-  --set wordpressClientId=\&quot;$WORDPRESS_CLIENT_ID\&quot; \
-  --set wordpressSecret=$WORDPRESS_CLIENT_SECRET \
-  --set ingress.enabled=true \
-  --set ingress.annotations.&quot;kubernetes\.io/ingress\.class&quot;=nginx \
-  --set ingress.annotations.&quot;cert-manager\.io/cluster-issuer&quot;=letsencrypt-prod \
-  --set ingress.hosts[0].host=stackedit.example.com \
-  --set ingress.hosts[0].paths[0]=/ \
-  --set ingress.tls[0].secretName=stackedit-tls \
-  --set ingress.tls[0].hosts[0]=stackedit.example.com" tabindex="0" role="button">
+
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
     <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
 </svg>
