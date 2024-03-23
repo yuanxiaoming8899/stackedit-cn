@@ -23,17 +23,7 @@ npm run build
 
 <span class="pl-c"><span class="pl-c">#</span> build for production and view the bundle analyzer report</span>
 npm run build --report</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm start
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report" tabindex="0" role="button">
+   
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
     <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
 </svg>
@@ -60,13 +50,7 @@ helm install --name stackedit stackedit/stackedit \
   --set githubClientSecret=<span class="pl-smi">$GITHUB_CLIENT_SECRET</span> \
   --set wordpressClientId=<span class="pl-cce">\"</span><span class="pl-smi">$WORDPRESS_CLIENT_ID</span><span class="pl-cce">\"</span> \
   --set wordpressSecret=<span class="pl-smi">$WORDPRESS_CLIENT_SECRET</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# Add the StackEdit Helm repository
-helm repo add stackedit https://benweet.github.io/stackedit-charts/
-
-# Update your local Helm chart repository cache
-helm repo update
-
-# Deploy StackEdit chart to your cluster
+    
 helm install --name stackedit stackedit/stackedit \
   --set dropboxAppKey=$DROPBOX_API_KEY \
   --set dropboxAppKeyFull=$DROPBOX_FULL_ACCESS_API_KEY \
@@ -87,8 +71,7 @@ helm install --name stackedit stackedit/stackedit \
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">稍后，将 StackEdit 升级到最新版本：</font></font></p>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>helm repo update
 helm upgrade stackedit stackedit/stackedit</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="helm repo update
-helm upgrade stackedit stackedit/stackedit" tabindex="0" role="button">
+   
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
     <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
 </svg>
@@ -99,7 +82,7 @@ helm upgrade stackedit stackedit/stackedit" tabindex="0" role="button">
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果你想卸载 StackEdit：</font></font></p>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>helm delete --purge stackedit</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="helm delete --purge stackedit" tabindex="0" role="button">
+   
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
     <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
 </svg>
@@ -126,8 +109,7 @@ helm install --name stackedit stackedit/stackedit \
   --set ingress.hosts[0].paths[0]=/ \
   --set ingress.tls[0].secretName=stackedit-tls \
   --set ingress.tls[0].hosts[0]=stackedit.example.com</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# See https://docs.cert-manager.io/en/latest/tutorials/acme/quick-start/index.html
-helm install --name stackedit stackedit/stackedit \
+  
   --set dropboxAppKey=$DROPBOX_API_KEY \
   --set dropboxAppKeyFull=$DROPBOX_FULL_ACCESS_API_KEY \
   --set googleClientId=$GOOGLE_CLIENT_ID \
